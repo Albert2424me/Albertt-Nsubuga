@@ -10,12 +10,12 @@
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="#home" class="brand">Albert<span>.</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-navigation">
         <span></span>
         <span></span>
         <span></span>
       </button>
-      <ul class="nav-links">
+      <ul class="nav-links" id="site-navigation">
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -37,7 +37,9 @@
         </div>
       </div>
       <div class="hero-visual">
-        <img src="photo/albert%20n.jpeg" alt="Albert Nsubuga" class="hero-avatar" loading="lazy" />
+        <div class="hero-avatar">
+          <img src="photo/albert%20n.jpeg" alt="Albert Nsubuga" loading="lazy" />
+        </div>
         <div class="hero-visual-text">
           <p>Networks</p>
           <p>Security</p>
@@ -133,7 +135,7 @@
         <p>Whether you want to discuss network architecture, AI, or even schedule a table tennis match, my inbox is always open.</p>
         <div class="contact-buttons">
           <a href="mailto:franklinensubuga@gmail.com" class="btn btn-primary">Email Me</a>
-          <a href="https://www.linkedin.com/in/albert-nsubuga-9424042a3" target="_blank" rel="noreferrer" class="btn btn-secondary">LinkedIn Profile</a>
+          <a href="https://www.linkedin.com/in/albert-nsubuga-9424042a3" target="_blank" rel="noreferrer noopener" class="btn btn-secondary">LinkedIn Profile</a>
         </div>
       </div>
     </section>
